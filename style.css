@@ -1,9 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #000000;
+    background-image: linear-gradient(to top, #000000, #006699);
 }
 
 main {
     padding: 5px;
+}
+
+h4 {
+    float: right;
+    margin: 100px;
+}
+
+figure {
+    float: right;
+    margin: 10px;
+    background-color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(3deg);
 }
 
 footer {
